@@ -1,0 +1,44 @@
+.container{
+  background-color: darkgray;
+  width: 1440px;
+  height: 144px;
+  margin: auto;
+  margin-top: 50px;
+}
+.nave{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  width: 100%;
+  height: 144px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  justify-content:space-evenly;
+  /* justify-content: space-around; */
+}
+.dimension{
+
+  margin-top: 1px;
+  width: 80.24px;
+  height: 65.19px;
+}
+.login{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.parrafo-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30.31px;
+  width: 270.92px;
+  font-size: 100%;
+  margin: 0%;
+
+}
