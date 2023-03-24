@@ -1,44 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Raleway:wght@300;400;500;600;700&display=swap');
+/*seudonimo de html*/
+:root {
+  /*Palette */
+  --primary-solid: #FF3333;
+  --primary-900:rgb(255,51,51,0.9);/* al 90% del solid*/
+  --primary-500:rgb(255,51,51,0.5);/* al 50%*/
+  --primary-300:rgb(255,51,51,0.3);/* al 30%*/
+  
+  --secondary-solid: #1D84B5;
+  --secondary-900: rgb(29, 132, 181, 0.9);/* al 90% del solid*/
+  --secondary-500: rgb(29, 132, 181, 0.5);/* al 50%*/
+  --secondary-300: rgb(29, 132, 181, 0.3);/* al 30%*/
+
+  --dark-solid: #1F1F1F;
+  --dark-900: rgb(31, 31, 31, 0.9);/* al 90% del solid*/
+  --dark-500: rgb(31, 31, 31,  0.5);/* al 50%*/
+  --dark-300: rgb(31, 31, 31,  0.3);/* al 30%*/ 
+
+  --darl-bg-solid: #30343F;
+  --light-bg-solid: #FAFAFF;
+  --ligth-font-solid: #FFFFFF;
+
+  /* Typography */
+  --base-font: 'Poppins', sans-serif;
+  --alternative-font: 'Raleway', sans-serif;
+
+  /* Font-size */
+  --font-display: 4.6em;
+  --font-jumbo: 3.8em;
+  --font-xlarge: 3em;
+  --font-large: 2.4em;
+  --font-medium: 1.8em;
+  --font-small: 1.6em;
+  --font-xsmall: 1.2em;
+
+  /* Spacing */
+  --spacing-128: 12.8rem ;/* rem= valor absoluto= 10px=1rem*/
+  --spacing-68: 6.8rem;
+  --spacing-36: 3.6rem;
+  --spacing-28: 2.8rem;
+  --spacing-16: 1.6rem;
+  --spacing-12: 1.2rem;
+  --spacing-8: 0.8rem;
+
+
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;/* el contenido no excede los limites del borde*/
+}
+html {
+  font-size: 62.5%;/*= 10 px/// por defecto es em = 16 px */
+  color: var(--dark-solid);
+  font-family: var(--base-font);
+}
+
+a {
+  text-decoration: none;
+  font-size: 2em;
+  font-family: inherit;
+  color: inherit;/* heredado*/
+}
+header,
+footer {
+  font-family: var(--alternative-font);
+  color: var(--ligth-font-solid);
+}
+
+ul, ol {
+  list-style-type: n
+  ;
+}
+p {
+  font-size: 1.8em;
+}
 .container{
   background-color: darkgray;
-  width: 1440px;
-  height: 144px;
-  margin: auto;
-  margin-top: 50px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
-.nave{
-  display: flex;
-  justify-content: space-between;
-}
-.logo{
-  width: 100%;
-  height: 144px;
-  display: flex;
-  margin: auto;
-  align-items: center;
-  justify-content: center;
-  justify-content:space-evenly;
-  /* justify-content: space-around; */
-}
-.dimension{
 
-  margin-top: 1px;
-  width: 80.24px;
-  height: 65.19px;
-}
-.login{
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: space-around;
-  
-}
-.parrafo-nav{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30.31px;
-  width: 270.92px;
-  font-size: 100%;
-  margin: 0%;
 
-}
+
